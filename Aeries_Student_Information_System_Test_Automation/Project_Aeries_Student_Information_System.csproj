@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SpecFlow" />
+    <None Remove="Selenium.Support" />
+    <None Remove="Selenium.WebDriver.ChromeDriver" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SpecFlow" Version="3.9.69" />
+    <PackageReference Include="Selenium.Support" Version="4.1.1" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="101.0.4951.4100" />
+  </ItemGroup>
+</Project>
